@@ -1,0 +1,24 @@
+{
+	"name": "zmcms/website_galleries",
+	"description": "Galerie w serwisie internetowym",
+	"authors": [
+		{
+		"name": "Piotr Szkudlarek",
+		"email": "pszkudlarek@zoltanmultimedia.pl"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+		"Zmcms\\WebsiteGalleries\\": "",
+		},
+		"files": ["src/helpers.php"]
+		},
+		"extra": {
+			"laravel": {
+			"providers": [
+				"Zmcms\\WebsiteGalleries\\ZmcmsWebsiteGalleriesServiceProvider"
+			]
+		}
+	},
+	"require": {}
+}
