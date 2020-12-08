@@ -10,9 +10,11 @@
 	"autoload": {
 		"psr-4": {
 			"Zmcms\\WebsiteGalleries\\Backend\\Controllers\\":"src/backend/controllers/",
+			"Zmcms\\WebsiteGalleries\\Backend\\DDb\\":"src/backend/db/",
 			"Zmcms\\WebsiteGalleries\\Backend\\Middleware\\":"src/backend/middleware/",
 			"Zmcms\\WebsiteGalleries\\Backend\\Routes\\":"src/backend/routes/",
 			"Zmcms\\WebsiteGalleries\\Frontend\\Controllers\\":"src/frontend/controllers/",
+			"Zmcms\\WebsiteGalleries\\Frontend\\Db\\":"src/frontend/db/",
 			"Zmcms\\WebsiteGalleries\\Frontend\\Middleware\\":"src/frontend/middleware/",
 			"Zmcms\\WebsiteGalleries\\Frontend\\Routes\\":"src/frontend/routes/",
 			"Zmcms\\WebsiteGalleries\\Migrations\\":"src/migrations/",
