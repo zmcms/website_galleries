@@ -7,6 +7,7 @@
 		"email": "pszkudlarek@zoltanmultimedia.pl"
 		}
 	],
+	"require": {},
 	"autoload": {
 		"psr-4": {
 			"Zmcms\\WebsiteGalleries\\Backend\\Controllers\\":"src/backend/controllers/",
@@ -28,6 +29,5 @@
 				"Zmcms\\WebsiteGalleries\\ZmcmsWebsiteGalleriesServiceProvider"
 			]
 		}
-	},
-	"require": {}
+	}
 }
